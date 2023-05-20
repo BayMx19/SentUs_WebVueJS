@@ -372,6 +372,9 @@ h6,
 button:focus:not(:focus-visible) {
     outline: 0;
 }
+
+
+
 input,
 button,
 select,
@@ -577,5 +580,11 @@ router-link {
 .a {
   text-decoration: none;
   color: white;
+}
+
+@media (max-width:900px){
+  .img-header{
+    display: none;
+  }
 }
 </style>
