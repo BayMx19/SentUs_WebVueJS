@@ -95,7 +95,7 @@ label {
 .login-form {
  position: relative;
  top: 35%;
- 
+ animation: form 10s;
 }
 
 .form-control{
@@ -116,5 +116,10 @@ form {
 
 label{
   color: #00337C !important;
+}
+
+@keyframes form{
+  from {top:0px;}
+  to {bottom:25%;}
 }
 </style>
