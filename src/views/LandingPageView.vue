@@ -137,7 +137,7 @@
 
                 </div>
                 <div class="col-lg-6">
-                    <div class="mb-5 mb-lg-0 text-lg-start">
+                    <div class="mb-5 mb-lg-0 text-lg-start txt-footer">
                         <h1 class="footer-text lh-1 mb-3">#mudahcepatSentUs</h1>
                         <p class="footer-text2 mb-5"><b>SentUs</b> merupakan sebuah platform bagi para pengguna yang ingin
                             mencetak dokumen mereka dengan cepat dan efisien.</p>
@@ -586,7 +586,7 @@ router-link {
   .btn-header, .btn-footer{
     display: none;
   }
-  .btn-header {
+  .btn-header, .txt-footer {
     text-align: center;
   }
 
