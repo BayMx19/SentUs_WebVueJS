@@ -207,7 +207,7 @@ border-radius: 8px;
 }
 
 .sidebar-header {
- padding: 19px 32px 20px;
+ padding: 0px 32px 20px;
  background: #fff;
 }
 .sidebar-menu .logo{
@@ -270,7 +270,10 @@ border-radius: 8px;
 .metismenu >li:hover>a,
 .metismenu >li.active>a {
  /* color: #fff; */
- background-color: #0068D4;
+ background-color: #005c97 !important;
+ background-color: -webkit-linear-gradient(to right, #005c97, #363795) !important;
+ background-color: linear-gradient(to right, #005c97, #363795) !important;
+  border-radius: 0px 10px 10px 0px;
 }
 
 .metismenu li a:hover {
@@ -363,6 +366,7 @@ border-radius: 8px;
 .metismenu2 >li.active>a {
 
  background: #FF3232 !important;
+ border-radius: 0px 10px 10px 0px;
 }
 
 
@@ -385,8 +389,10 @@ border-radius: 8px;
 
 .header-area {
  padding: 15px 30px;
- background: #0068D5;
- box-shadow: 0px 2px 20px rgba(1, 41, 112, 0.1);
+ background-color: #005c97 !important;
+ background-color: -webkit-linear-gradient(to right, #005c97, #363795) !important;
+ background-color: linear-gradient(to right, #005c97, #363795) !important;
+box-shadow: 0px 2px 20px rgba(1, 41, 112, 0.1);
 
    
 }

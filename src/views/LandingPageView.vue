@@ -198,7 +198,7 @@
     <footer class="bg-black text-center py-1">
       <div class="container px-5">
         <div class="text-white small">
-          <div class="mt-1 mb-1">&copy; SentUs 2023. All Rights Reserved.</div>
+          <div class="mt-1 mb-1"> Copyright &copy; 2023 | Developed with ♥ by <a class="a" href="https://www.linkedin.com/in/isaiman/">Isa Iman Muhammad</a></div>
         </div>
       </div>
     </footer>
