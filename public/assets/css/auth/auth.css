@@ -1,0 +1,140 @@
+body {
+ font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif !important;
+ overflow-x: hidden;
+}
+
+label {
+ color: #0068D4;
+ font-weight: bold;
+}
+
+section {
+ height: 100%;
+}
+.top-right {
+ float: right;
+}
+
+.top-right p {
+ font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif !important;
+ margin-top :20px !important;
+font-style: normal;
+font-weight: 700;
+font-size: 18px;
+line-height: 23px;
+text-align: center;
+letter-spacing: 0.01em;
+align-items: center !important;
+
+color: #0A0A0A;
+
+}
+
+p {
+ margin: 10px 0 0 10px !important;
+ text-align: center;
+ font-weight: bold;
+
+}
+
+
+.sidenav {
+ position: relative;
+ height: 100%;
+ background-image: url('/image/sideimg.png');
+ overflow-x: hidden;
+ padding-top: 20px;
+ background-repeat: no-repeat;
+}
+
+
+.main {
+ padding: 0px 80px 0px 0px;
+ margin: 0px 50px 0 0;
+}
+
+@media screen and (max-height: 450px) {
+ .sidenav {padding-top: 15px;}
+}
+
+@media screen and (max-width: 450px) {
+ .login-form{
+     margin-top: 10%;
+ }
+
+
+}
+
+@media screen and (min-width: 768px){
+ .main{
+     margin-left: 50%; 
+ }
+
+ .sidenav{
+     width: 50%;
+     position: fixed;
+     z-index: 1;
+     top: 0;
+     left: 0;
+
+ }
+
+ .login-form{
+     margin-top: 80px;
+ }
+
+
+}
+
+
+.login-main-text{
+ margin-top: 20%;
+ padding: 60px;
+ color: #fff;
+}
+
+.login-main-text h2{
+ font-weight: 300;
+}
+
+
+.form-control {
+ border-radius: 12px !important;
+ padding-top: 10px;
+ width: 150px auto !important;
+ background: #FFFFFF;
+box-shadow: 2px 2px 2px rgba(0, 0, 0, 0.2);
+}
+
+.btn-primary2 {
+ background-color: #0068D4 !important;
+ color: white !important;
+ border-color: none;
+}
+button:hover {
+ box-shadow: 2px 2px 2px rgba(0, 0, 0, 0.5);
+
+}
+
+
+.card-login {
+top:50%;
+bottom: 50%;
+margin-right: 15px;
+background: #FFFFFF;
+z-index: 999;
+top:0; 
+left:100px
+}
+
+.card-body {
+ padding: 50px !important;
+}
+
+.material-symbols-outlined {
+  font-variation-settings:
+  'FILL' 1,
+  'wght' 400,
+  'GRAD' 0,
+  'opsz' 48
+}
