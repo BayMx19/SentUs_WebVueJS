@@ -5,7 +5,7 @@
 <template>
   <main>
     <nav class="navbar navbar-expand-lg navbar-light fixed-top shadow-sm" id="mainNav">
-        <div class="container px-5">
+        <div class="container">
             <a class="navbar-brand fw-bold" href="#page-top">
                 <img src="/assets/image/Logo-panjang.png">
             </a>
@@ -133,10 +133,10 @@
         <div class="container px-2">
             <div class="row gx-5 align-items-center">
                 <div class="col-sm-6">
-                    <img class="header-lp" src="/assets/image/footer-lp.png">
+                    <img class="header-lp img-footer" src="/assets/image/footer-lp.png">
 
                 </div>
-                <div class="col-lg-6 img-header">
+                <div class="col-lg-6">
                     <div class="mb-5 mb-lg-0 text-lg-start">
                         <h1 class="footer-text lh-1 mb-3">#mudahcepatSentUs</h1>
                         <p class="footer-text2 mb-5"><b>SentUs</b> merupakan sebuah platform bagi para pengguna yang ingin
@@ -583,11 +583,19 @@ router-link {
 }
 
 @media (max-width:900px){
-  .img-header{
+  .btn-header, .btn-footer{
     display: none;
   }
-  .btn-header{
+  .btn-header {
     text-align: center;
+  }
+
+  .img-footer {
+    margin-bottom: 30px;
+  }
+
+  .card {
+    margin-bottom: 30px;
   }
 }
 </style>
