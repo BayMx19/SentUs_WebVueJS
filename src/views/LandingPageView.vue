@@ -586,5 +586,8 @@ router-link {
   .img-header{
     display: none;
   }
+  .btn-header{
+    text-align: center;
+  }
 }
 </style>
