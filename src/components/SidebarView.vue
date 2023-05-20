@@ -2,7 +2,7 @@
     <div class="sidebar-menu">
         <div class="sidebar-header">
             <div class="logo">
-                <img src="/assets/image/Logo.png" alt="logo">
+                <img src="/assets/image/LogoHeader.png" alt="logo">
             </div>
             <hr>
         </div>
